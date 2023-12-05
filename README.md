@@ -18,10 +18,10 @@ Build a Recipes site with the following functionality:
 ### Backend
 The following technologies are highly recommended:
 - Node.js 18+
-- express.js or fastify
+- express.js
 - ES Modules or TypeScript
-- postgres and Drizzle ORM
-- jest or vitest
+- postgres and Prisma ORM or knex.js
+- jest or node:test
 - dotenv
 - eslint
 
@@ -30,11 +30,7 @@ The following technologies are highly recommended:
 Keep the front end simple!
 
  - React using vite
- - TanStack Query
- - Hooks with React Router
- - React Icons
- - Radix UI
- - Shadcn UI
+ - MerakiUI or Flowbite
  - Tailwind CSS
  - eslint
  - vitest
